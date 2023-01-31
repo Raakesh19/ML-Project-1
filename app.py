@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/",methods = ['GET','POST'])
 def index():
-    return "Starting Machine Learning Project"
+    return "Create CICD pipeline for Machine Learning Project"
 
 
 
